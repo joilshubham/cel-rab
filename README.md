@@ -10,4 +10,4 @@ Follow the below steps to install and the test the application
     
     'django-celery-results' is used as Celery's results backend which uses the same sqlite3 database as the application and can be viewed in admin panel for testing
     
-    
+    'flower' is also used to visually represent the Celery's transactory data at 'http://localhost:5555'. Use 'celery -A app_main flower' command to run flower 
